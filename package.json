@@ -1,0 +1,25 @@
+{
+  "name": "api-documentation",
+  "version": "1.0.0-beta.1",
+  "description": "Documentation for the public HiØ API (this will be embedded in future API-service-layer)",
+  "main": "readme.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiof/api-documentation.git"
+  },
+  "keywords": [
+    "hiof",
+    "api",
+    "deocumentation",
+    "doc"
+  ],
+  "author": "HiØ ved Kenneth Dahlstrøm <kenneth.dahlstrom@hiof.no>",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/hiof/api-documentation/issues"
+  },
+  "homepage": "https://github.com/hiof/api-documentation#readme"
+}
