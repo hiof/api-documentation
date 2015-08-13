@@ -17,7 +17,7 @@ The POST request is used for updating the current queue number.
 
 **currentNumber**
 
-Type: `string` Values should be 1 and up
+Type: `string` Values should be 1 and up.
 
 **secret**
 
