@@ -35,6 +35,6 @@ module.exports = function(grunt) {
     grunt.registerTask('major', ['bump:major']);
     grunt.registerTask('minor', ['bump:minor']);
     grunt.registerTask('path', ['bump:patch']);
-    grunt.registerTask('beta', ['bump:major']);
+    grunt.registerTask('beta', ['bump:prerelease']);
 
 };
