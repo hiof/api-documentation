@@ -23,7 +23,7 @@ Documentation is versioned with the same major version as the API itself. Minior
 
 The `grunt-bump plugin is used to update the version of the `package.js` file and the repositiory with the a commit message and a `git-tag`.
 
-- Update major: `$ grunt bump:major`
-- Update minor: `$ grunt bump:minor`
-- Update patch: `$ grunt bump:patch`
-- Update prerelease: `$ grunt bump:prerelease`
+- Update major: `$ grunt major`
+- Update minor: `$ grunt minor`
+- Update patch: `$ grunt patch`
+- Update prerelease: `$ grunt beta`
