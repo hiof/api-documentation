@@ -13,7 +13,7 @@ With GET you will be able to query the current queue status for both campuses at
 
 The POST request is used for updating the current queue number.
 
-### POST Options
+### POST parameters
 
 **currentNumber**
 

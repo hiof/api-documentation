@@ -9,7 +9,7 @@ With GET you will be able to query the current queue status for both campuses at
 
     $ curl -i "http://hiof.no/api/v1/semesterstart/"
 
-### GET Options
+### GET parameters
 
 **template**
 

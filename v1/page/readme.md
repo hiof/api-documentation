@@ -7,18 +7,20 @@ The API is available at [/api/v1/page/](http://hiof.no/api/v1/page/).
 
 With GET you will be able to query the content from the our CMS NetEd. Required parameter is the ID of the page you want to display.
 
-    $ curl -i "http://hiof.no/api/v1/page/"
-
-### GET Options
+### GET parameters
 
 **id**
 
-Type: `intr` Values could be `single` if you want data only one studyprogram code. This value require courseId.
-
-**server**
-
-Type: `string` Unique identifier for each course. Find the correct courseId in the index query. This value is required on template=single.
+Type: `int` Value should correspond with the page you want to
 
 Example:
 
-    $ curl -i "http://hiof.no/api/v1/page/?courseId=spl&template=single"
+    $ curl -i "http://hiof.no/api/v1/page/?id=475"
+
+**server**
+
+Type: `string` Either www2 or www. Defaults to www if it is not defined.
+
+Example:
+
+    $ curl -i "http://hiof.no/api/v1/page/?id=18346&server=www2"
