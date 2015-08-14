@@ -1,6 +1,6 @@
 {
   "name": "api-documentation",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "Documentation for the public HiØ API (this will be embedded in future API-service-layer)",
   "main": "readme.md",
   "scripts": {
